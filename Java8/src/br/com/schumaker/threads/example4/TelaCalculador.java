@@ -1,5 +1,7 @@
-package br.com.schumaker.threads.example2.comthread;
+package br.com.schumaker.threads.example4;
 
+import br.com.schumaker.threads.example3.*;
+import br.com.schumaker.threads.example2.comthread.*;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;

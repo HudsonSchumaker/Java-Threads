@@ -5,6 +5,10 @@ import java.awt.event.ActionListener;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
+/**
+ *
+ * @author Hudson Schumaker
+ */
 public class AcaoBotao implements ActionListener {
 
     private final JTextField primeiro;

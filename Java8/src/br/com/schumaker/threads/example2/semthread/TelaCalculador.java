@@ -6,6 +6,10 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+/**
+ *
+ * @author Hudson Schumaker
+ */
 public class TelaCalculador {
     
     public static void main(String[] args) {

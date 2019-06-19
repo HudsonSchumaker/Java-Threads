@@ -2,7 +2,7 @@ package br.com.schumaker.threads.example1;
 
 /**
  *
- * @author hudsonschumaker
+ * @author Hudson Schumaker
  */
 public class Example1 {
     public static void main(String... args) {
