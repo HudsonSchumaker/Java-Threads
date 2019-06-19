@@ -3,7 +3,6 @@ package br.com.schumaker.threads.example5;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
 /**

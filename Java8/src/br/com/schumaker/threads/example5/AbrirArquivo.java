@@ -12,12 +12,10 @@ import javax.swing.JTextField;
  */
 public class AbrirArquivo implements ActionListener {
 
-    private String filePath;
     private JTextField word;
     private JTextArea resultado;
 
-    public AbrirArquivo(String filePath, JTextField word, JTextArea resultado) {
-        this.filePath = filePath;
+    public AbrirArquivo(JTextField word, JTextArea resultado) {
         this.word = word;
         this.resultado = resultado;
     }
@@ -28,9 +26,9 @@ public class AbrirArquivo implements ActionListener {
         chooser.setDialogTitle("Abrir Arquivo");
         chooser.setApproveButtonText("Abrir");
         int sf = chooser.showOpenDialog(null);
-        
+
         if (sf == JFileChooser.APPROVE_OPTION) {
-            filePath = chooser.getSelectedFile().getAbsolutePath();
+            String filePath = chooser.getSelectedFile().getAbsolutePath();
             Thread t = new Thread(new BuscaEmArquivoTexto(filePath, word.getText(), resultado));
             t.setPriority(Thread.MAX_PRIORITY);
             t.start();

@@ -21,8 +21,7 @@ public class TelaBusca {
         resultado.setColumns(30);
         resultado.setRows(5);
 
-        String filePath = "";
-        escolherArquivo.addActionListener(new AbrirArquivo(filePath, word, resultado));
+        escolherArquivo.addActionListener(new AbrirArquivo(word, resultado));
         
         JPanel painel = new JPanel();
         painel.add(word);
