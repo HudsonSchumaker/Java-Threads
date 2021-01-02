@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
  */
 public class ScheduledPool {
     public static void main(String... args) {
