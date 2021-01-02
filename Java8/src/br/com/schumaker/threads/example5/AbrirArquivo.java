@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author hudsonschumaker
+ * @author Hudson Schumaker
  */
 public class AbrirArquivo implements ActionListener {
 
