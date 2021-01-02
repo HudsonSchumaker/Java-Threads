@@ -5,7 +5,7 @@ import java.util.concurrent.Callable;
 
 /**
  *
- * @author schumaker
+ * @author Hudson Schumaker
  */
 public class MyCallable implements Callable<String> {
 
