@@ -2,7 +2,7 @@ package br.com.schumaker.threads.example6;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
  */
 public class ShowerTask implements Runnable {
     private final Bathroom bathroom;
