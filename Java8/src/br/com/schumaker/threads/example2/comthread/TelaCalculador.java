@@ -22,7 +22,7 @@ public class TelaCalculador {
         JButton botao = new JButton(" = ");
         JLabel resultado = new JLabel("           ?          ");
 
-        //quando clica no botão será executado a classe Multiplicador
+        // quando clicar no botão será executado a classe Multiplicador
         botao.addActionListener(new AcaoBotao(primeiro, segundo, resultado));
         
         JPanel painel = new JPanel();
