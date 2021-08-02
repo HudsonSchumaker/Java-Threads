@@ -6,7 +6,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author hudsonschumaker
+ * @author hudson schumaker
  */
 public class ThreadCalcula implements Runnable {
 
